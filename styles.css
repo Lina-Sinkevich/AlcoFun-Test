@@ -1,0 +1,168 @@
+/*Polina version*/
+
+@font-face{
+    font-family: Bebas;
+    src:url('./assets/fonts/Bebas.otf');
+}
+
+@font-face{
+    font-family: Nautilus;
+    src:url('./assets/fonts/Nautilus.otf');
+}
+
+@font-face{
+    font-family: Shadow;
+    src:url('./assets/fonts/Shadow.otf');
+}
+
+#header{
+	background: radial-gradient(circle ,rgb(255,239,213),#ffcc99);
+   border-radius: 25px;
+
+}
+.head-text{
+
+   font-family: Nautilus;
+   color: rgb(68, 46, 22);
+   font-size: 58px;
+   text-align: center;
+   /* text-shadow: 3px 4px 5px ; */
+}
+.words{
+	font-family: Nautilus;
+   text-align: center;
+   margin-top: 0px;
+   padding-bottom: 2px;
+   margin-top: 20px;
+}
+
+
+
+.centralize{
+	display: flex;
+	justify-content: center;
+}
+
+#start-button{
+	outline: none;
+		position: center;
+		border-color:#ffbc40;
+		background-color: #ff7f50;
+		border-radius: 25px;
+		/*font-family: 'Amatic SC', cursive;*/
+		font-family: Nautilus;
+		font-size: 200%;
+		font-weight: 600;
+		height:100px;
+		width: 150px;	
+	  }
+	  .start-button:hover {
+		background-color: #ffd191;
+		box-shadow: 0 15px 20px #ffbc40 ;
+		color: white;
+		transform: translateY(-7px);
+
+}
+
+
+
+  .nextq-button{
+	outline: none;
+		position:relative;
+		/* left:30px;	
+		top:25px; */
+		border-color:#ffbc40;
+		background-color: #ff7f50;
+		/* background-color:#ffd191; */
+		border-radius: 25px;
+		font-family: 'Amatic SC', cursive;
+		font-size: large;
+		font-weight: 600;
+		height:100px;
+		width: 200px;	
+	  }
+	  .nextq-button:hover {
+		background-color: #ffd191;
+		box-shadow: 0 15px 20px #ffbc40 ;
+		color: white;
+		transform: translateY(-7px);
+
+}
+
+  
+#homepage{
+	height:200px;
+	background: radial-gradient(circle ,rgb(255,239,213),#ffcc99);
+	border-radius: 10px;
+}
+
+   /* фон вопросов */
+ #firstq, #secondq1, #secondq2, #thirdq1, #thirdq2,
+#thirdq3, #thirdq4, #forthq1, #forthq2, #forthq3, #forthq4,
+#forthq5, #forthq6, #forthq7, #forthq8{
+	height:300px;
+	background: radial-gradient(circle ,rgb(255,239,213),#ffcc99);
+	border-radius: 10px;
+}
+
+#res1, #res2, #res3,
+#res4, #res5, #res6, #res7, #res8, #res9, #res10, #res11, #res12,
+#res13,#res14, #res15, #res16{
+	height:300px;
+	background: radial-gradient(circle ,rgb(255,239,213),#ffcc99);
+	border-radius: 10px;
+}
+
+
+#Choice1a, #Choice2-1a, #Choice2-2a, #Choice3-1a, #Choice3-2a,
+#Choice3-3a, #Choice3-4a, #Choice4-1a, #Choice4-2a, #Choice4-3a,
+#Choice4-4a, #Choice4-5a, #Choice4-6a, #Choice4-7a, #Choice4-8a{
+	float: left;
+}
+.party{
+    
+	/* float: right; */
+	width:250px;
+	height:160px; 
+	border-radius: 15px;
+	box-shadow: 5px 5px 2px gray;
+	
+}
+
+.res-pic{
+	float: right; 
+	width:250px;
+	height:160px; 
+	border-radius: 15px;
+	box-shadow: 5px 5px 2px gray;
+}
+
+.text-choice{
+	display: inline;
+}
+
+.home{
+	position:relative;
+	/* left: 240px;
+	top: -137px; */
+	outline: none;
+	background-image: url('./assets/images/home-logo.png');
+    border-radius:10px;
+	width: 44px;
+    height: 34px;
+    border: none;
+	box-shadow: 2px 2px 2px gray;
+}
+.c-text{
+	font-family: Nautilus;
+	display: inline;
+	float: left;
+}
+
+#firstq, #secondq1, #secondq2, #thirdq1, #thirdq2,
+#thirdq3, #thirdq4, #forthq1, #forthq2, #forthq3, #forthq4,
+#forthq5, #forthq6, #forthq7, #forthq8, #res1, #res2, #res3,
+#res4, #res5, #res6, #res7, #res8, #res9, #res10, #res11, #res12,
+#res13,#res14, #res15, #res16	{
+	display:none;
+}

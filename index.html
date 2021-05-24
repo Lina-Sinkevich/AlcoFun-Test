@@ -1,0 +1,689 @@
+<!--Polina version-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alco_fun_test</title>
+    <style>
+      body {
+       background: #f1f1f0 url(./assets/images/back1.PNG); /* Цвет фона и путь к файлу */
+      }
+     </style>
+    <!-- //подключение css -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/images/logos.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+  
+  <header id="header">
+    <h1 class ="head-text">ALCOFUN TEST</h1>
+    <h2 class = "words"><p>Тебе тоже скучно и нечем заняться?<br>
+                  Пройди наш тест и узнай, какой ты алкогольный напиток!</p>
+    </h2>
+  </header>
+
+
+    <main>
+
+      <section class = "centralize" id="homepage">
+        <div>
+          <div class = "clear"></div>
+          <h2 class="words" >Начнём тест?</h2>          
+            <button id="start-button">Start</button> 
+        </div>
+        </section>
+
+        <div class = "clear"></div>
+
+        <!-- q1-->
+
+        <section class="centralize" id="firstq">
+      <div>         
+         <form>
+             <h2 class = "words" id="q1">   1.На вечеринке ты?</h2>
+             <div class ="text-choice"><!-- Answer -->
+              
+              <button type = "button" id="Choice1a" class = "nextq-button" >Общаешься с людьми,
+                отрываешься и отлично проводишь время</button>
+            
+            
+              <button type = "button" id="Choice1b" class = "nextq-button" >Предпочитаешь
+                 стоять в сторонке и наблюдать</button> 
+            
+        </div>
+        <img  class ="party"  src="assets/images/party.jpg" alt="вечеринка в самом разгаре">
+            <button class='home' type="button"></button>
+        </form>
+      </div>
+         </section>
+
+        <!-- q2-1-->
+
+
+         <section class="centralize" id="secondq1">
+          <div>         
+             <form>
+                 <h2 class = "words"  id="q2"> 2.Чем займёшься в выходной?</h2>
+                 <div class ="text-choice">
+                  
+                  <button type = "button" id="Choice2-1a" class = "nextq-button" >Пойдёшь в гости к друзьям</button>
+                  <button type = "button" id="Choice2-1b" class = "nextq-button" >Сделаешь накопившиеся дела</button> 
+                
+                  </div>
+            <img  class ="party"  src="assets/images/duties.jpg" alt="чел сидит в куче книг">
+                
+                <button class='home' type="button"></button>
+            </form>
+          </div>
+             </section>
+
+              <!-- q2-2-->
+             <section class="centralize" id="secondq2">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 2.Чем займёшься в выходной?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice2-2a" class = "nextq-button" >Сходишь в кино или театр</button>
+                      <button type = "button" id="Choice2-2b" class = "nextq-button" >В одиночестве подумаешь о смысле жизни</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/cinema.jpg" alt="кинотеатр"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                  <!-- q3-1-->
+             <section class="centralize" id="thirdq1">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 3.В школе тебе больше всего нравилось?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice3-1a" class = "nextq-button" >
+                        Общаться и находить кучу друзей и знакомых</button>
+                      <button type = "button" id="Choice3-1b" class = "nextq-button" >
+                        Участвовать в общественной жизни школы</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/friends.jpg" alt="классно находишь новых друзей!"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                        <!-- q3-2-->
+             <section class="centralize" id="thirdq2">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 3.В школе тебе больше всего нравилось?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice3-2a" class = "nextq-button" >
+                        Изучать любимые предметы</button>
+                      <button type = "button" id="Choice3-2b" class = "nextq-button" >
+                        Общаться с ровесниками</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/research.png" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                  <!-- q3-3-->
+             <section class="centralize" id="thirdq3">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 3.В школе тебе больше всего нравилось?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice3-3a" class = "nextq-button" >
+                        Делать домашку</button>
+                      <button type = "button" id="Choice3-3b" class = "nextq-button" >
+                        Выполнять поручения учителей</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/htask.jpg" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                     <!-- q3-4-->
+             <section class="centralize" id="thirdq4">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 3.В школе тебе больше всего нравилось?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice3-4a" class = "nextq-button" >
+                        Просто учиться</button>
+                      <button type = "button" id="Choice3-4b" class = "nextq-button" >
+                        Задумчиво размышлять о жизни на переменах</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/pic1.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+
+                  <!-- q4-1-->
+             <section class="centralize" id="forthq1">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-1a" class = "nextq-button" >
+                        Что-то движовое</button>
+                      <button type = "button" id="Choice4-1b" class = "nextq-button" >
+                        Заводные песни валерочки меладзе</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/meladze.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                   <!-- q4-2-->
+             <section class="centralize" id="forthq2">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-2a" class = "nextq-button" >
+                        Хиты 90-ых и 2000х</button>
+                      <button type = "button" id="Choice4-2b" class = "nextq-button" >
+                        Диско</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/hits.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                     <!-- q4-3-->
+             <section class="centralize" id="forthq3">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-3a" class = "nextq-button" >
+                        Инди</button>
+                      <button type = "button" id="Choice4-3b" class = "nextq-button" >
+                        Электро</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/electro.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                                     <!-- q4-4-->
+             <section class="centralize" id="forthq4">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-4a" class = "nextq-button" >
+                        Техно</button>
+                      <button type = "button" id="Choice4-4b" class = "nextq-button" >
+                        Рок</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/dance.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                                        <!-- q4-5-->
+             <section class="centralize" id="forthq5">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-5a" class = "nextq-button" >
+                        Рэп</button>
+                      <button type = "button" id="Choice4-5b" class = "nextq-button" >
+                        Фанат попсы</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/rap1.gif" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                                        <!-- q4-6-->
+             <section class="centralize" id="forthq6">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-6a" class = "nextq-button" >
+                        Звуки природы</button>
+                      <button type = "button" id="Choice4-6b" class = "nextq-button" >
+                        Фолк музыка</button> 
+                    
+                      </div>
+                      <img  class ="party"  src="assets/images/nature.jpg" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                            <!-- q4-7-->
+             <section class="centralize" id="forthq7">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-7a" class = "nextq-button" >
+                        Грустные душевные песенки</button>
+                      <button type = "button" id="Choice4-7b" class = "nextq-button" >
+                        Стас Михайлов, привет</button> 
+                    
+                      </div>
+                      <img  class ="party" src="assets/images/stas.jpg" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                                             <!-- q4-8-->
+             <section class="centralize" id="forthq8">
+              <div>         
+                 <form>
+                     <h2 class = "words" > 4.Какую музыку на вечеринке ты предпочиташь?</h2>
+                     <div class ="text-choice">
+                      
+                      <button type = "button" id="Choice4-8a" class = "nextq-button" >
+                        Классика по Моцарту</button>
+                      <button type = "button" id="Choice4-8b" class = "nextq-button" >
+                        Живая музыка</button> 
+                    
+                      </div>
+                      <img  class ="party" src="assets/images/mozart.jpg" alt="красивая картинка"> 
+                    
+                    <button class='home' type="button"></button>
+                </form>
+              </div>
+                 </section>
+
+                  <!-- RESULTS-->
+
+                                       <!-- RES1-->
+                  <section id="res1" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты вкусный коктейль!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Ты любознательная и открытая натура, 
+                          крайне заинтересованная
+                          в новых ощущениях.
+                          Именно поэтому ты выбираешь коктейли: это же ужасно скучно –
+                          все время пить одно и то же! 
+                          Иногда эти новые ощущения приводят к непредсказуемому результату. 
+                         В общем, можно сказать, что вся твоя жизнь –
+                          это коктейль «ядерная зима».</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/drink.gif" alt="скусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+
+                                      <!-- RES2-->
+                  <section id="res2" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты текила!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Этот крепкий спиртной напиток пьют женщины
+                          с твердым характером, сильные, волевые.
+                          Любители текилы очень любят лесть и слишком мнительны.
+                           Такие мужчины могут совершить необдуманные,
+                          спонтанные поступки, за которые впоследствии иногда бывает стыдно
+                          Они легко и пылко влюбляются, но с такой же легкостью расстаются 
+                          с предметом своего обожания.</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/res2.jpg" alt="скусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+
+                   
+                                      <!-- RES3-->
+                  <section id="res3" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты джин-тоник!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Напиток интеллектуалов, людей, любящих порассуждать.
+                          Выпив джин-тоника, женщина может начать говорить много и на разные темы.
+                         Это признак того, что ей надо выговориться, 
+                         что в жизни у нее мало моментов, когда она может просто побыть собой.
+                          Будь внимательным слушателем — и ты покоришь сердце любителя джина.</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/res3.jpg" alt="Bкусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+                                                         <!-- RES4-->
+                  <section id="res4" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты old-fashioned!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Поклонники этого напитка обладают утонченным 
+                          вкусом и хорошими манерами.Они консервативны,
+                           рассудительны, ценят покой и всегда принимают взвешенные решения.
+                           К тому же на таких людей можно положиться —
+                            они благородны и никогда не предадут.</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/res4.jpg" alt="Bкусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+                                    <!-- RES5-->
+                  <section id="res5" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты ром!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Скрупулезные люди, которые серьезно относятся ко всему, 
+                          ориентированы на себя и свои потребности. Они очень спокойные,
+                           уравновешенные, постоянные, отличаются особой ответственностью.
+                          Для них важны отношения, дружба, семейные ценности.
+                           Часто это люди с закрытым характером,
+                          немногословные, но их ценят и любят на работе.</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/res5.jpg" alt="Bкусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+                    <!-- RES6-->
+                  <section id="res6" class="centralize">
+                    <form>                    
+                      <h2 class="words">Поздравляю,ты вкусный пунш!</h2>
+                      <table width=1000, cellpadding = 10, frame = void>
+                        <tr><th><h3 class="c-text">Доброжелательные, мягкие, общительные и открытые люди. 
+                          Им нравится заботиться о других людях,
+                          супруга окружают заботой, любят детей и животных.
+                          Им необходима большая семья. На работе всегда являются душой общества,
+                          их любят не только коллеги, но и начальство.
+                           Они чувственные и ранимые.</h3></th>
+                          <th> <img  class ="res-pic"  src="assets/images/res6.jpg" alt="Bкусный коктейль"> </th>
+                        </tr>
+                      </table>
+                    <div>                    
+                  </div>
+                        <button class='home' type="button"></button>
+                </form>
+                   </section>
+
+
+                    <!-- RES7-->
+                    <section id="res7" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты абсент!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Фанаты абсента иногда агрессивные люди, 
+                            которые всегда знают, что им нужно.
+                             Это прирожденные лидеры, часто добиваются руководящих должностей.
+                             У них – сильный характер, они устойчивы и непреклонны, 
+                             но при этом обладают особой харизмой и обаянием.
+                             В любви являются собственники, часто идут напролом.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res7.jpg" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+                     <!-- RES8-->
+                    <section id="res8" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты хмельная вишня!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Эти люди обычно в общении веселы, приятны и открыты.
+                            Как правило, они очень впечатлительны и сентиментальны.
+                            Часто хотят быть всеми любимы и всем понравится,
+                            а потому они часто разочаровываются и в людях, и в жизни.
+                            Они хорошо учатся и умеют работать.
+                            Но часто находясь в коллективе или семье,
+                            могут считать себя очень одинокими, непонятыми, неоцененными людьми.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/cherry.png" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+                                         <!-- RES9-->
+                    <section id="res9" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты виски с колой!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Это очень эмоциональные натуры, гордые, но отходчивые.
+                            Девушки, как правило, излишне уверена в себе и при
+                             этом склонна к необдуманным поступкам. 
+                             Мужчина же – сдержан, рассудителен, смел,
+                               умеет правильно расставлять приоритеты, поэтому, как правило,
+                              быстро достигает поставленных целей и карьерных высот.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res9.jpg" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+
+                                         <!-- RES10-->
+                    <section id="res10" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты пиво!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Такие люди, как правило, ответственны и мудры.
+                            Положиться на них можно и в работе,
+                             поэтому их обычно ценит начальство,
+                             а подчиненные уважают и даже любят. 
+                            Ты надежный друг и по этой же причине не самый лучший семьянин.
+                             Дружбу они ставят превыше всего и ради нее готовы буквально на любые поступки.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res10.gif" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+                                         <!-- RES11-->
+                    <section id="res11" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты сидр!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Тем, кто предпочитает сидр, постоянно не хватает времени,
+                            поэтому в их жизни, в отношениях и даже в комнате нет порядка,
+                          а царит хаос. Это творческие, свободолюбивые, любознательные люди,
+                          презирающие любые условности. Они за любое приключение или
+                           путешествие,могут часами просидеть за компьютерной игрой,
+                            которая их увлекла, или за книгой.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res11.jpg" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+                                         <!-- RES12-->
+                    <section id="res12" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты водка!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Женщина-водка – дама с твердым характером и железной волей.
+                            Она всегда знает, чего хочет и как этого добиться.
+                            Обычно эти женщины жизнерадостны, добры и имеют
+                             отменное чувство юмора.
+                            Мужчина-водка часто бывает мнителен,
+                             любит производить впечатление.
+                            Правда, есть у этого романтика и обратная сторона: остывает он,
+                            как правило, столь же быстро, как и загорается.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res12.gif" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                     </section>
+
+
+                                      <!-- RES13-->
+                    <section id="res13" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты бренди!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Такие женщина – настоящая хранительница домашнего очага и верная жена: 
+                            она любит наводить в доме уют, вкусно готовит, нуждается в нежности и тепле.
+                            Мужчина же – истинный аристократ,
+                            обладающий стальным характером и добрым сердцем одновременно.
+                             Он всегда готов нести ответственность за свои поступки, решителен,
+                             а чаще всего про таких, как он, говорят «строг, но справедлив».</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res13.jpg" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                </section>
+
+
+                                                      <!-- RES14-->
+                    <section id="res14" class="centralize">
+                      <form>                    
+                        <h2 class="words">Поздравляю,ты ликёр!</h2>
+                        <table width=1000, cellpadding = 10, frame = void>
+                          <tr><th><h3 class="c-text">Женщины, которые любят сладкое,
+                            очень большие ценительницы ликеров.
+                           Ликер — очень романтичный напиток, именно поэтому 
+                           он подходит многим женщинам.
+                           Мужчинам, пьющим ликеры, не хватает любви и взаимопонимания.
+                            Они очень привязаны к друзьям, семье, коллегам по работе.
+                           Такие мужчины будут копаться в себе, выясняя причину.</h3></th>
+                            <th> <img  class ="res-pic"  src="assets/images/res14.jpg" alt="Bкусный коктейль"> </th>
+                          </tr>
+                        </table>
+                      <div>                    
+                    </div>
+                          <button class='home' type="button"></button>
+                  </form>
+                </section>
+
+                <!-- RES15-->
+                <section id="res15" class="centralize">
+                  <form>                    
+                    <h2 class="words">Поздравляю,ты шампанское!</h2>
+                    <table width=1000, cellpadding = 10, frame = void>
+                      <tr><th><h3 class="c-text">Ты кокетливый и заводной, но расчетливый и хладнокровный человек.
+                        Обычно это экстраверт, просто обожающий быть в центре внимания.
+                         Именно про них нередко говорят, что они – душа компании. 
+                          Как правило,эти люди очень успешны в жизни.</h3></th>
+                        <th> <img  class ="res-pic"  src="assets/images/res15.gif" alt="Bкусный коктейль"> </th>
+                      </tr>
+                    </table>
+                  <div>                    
+                </div>
+                      <button class='home' type="button"></button>
+              </form>
+            </section>
+
+             <!-- RES16-->
+             <section id="res16" class="centralize">
+              <form>                    
+                <h2 class="words">Поздравляю,ты вино!</h2>
+                <table width=1000, cellpadding = 10, frame = void>
+                  <tr><th><h3 class="c-text">Белое предпочитают настоящие леди – они сдержаны и рассудительны.
+                    Красному отдают предпочтение страстные дамы. 
+                     Они амбициозны и знают, как добиваться своих целей.
+                     Мужчина-вино – настоящий джентльмен: у него безупречные манеры,
+                      широкий кругозор и масса обаяния.
+                      К сожалению,часто,за маской благородного рыцаря
+                      может скрываться просто излишне самоуверенный эгоист.</h3></th>
+                    <th> <img  class ="res-pic"  src="assets/images/res16.gif" alt="Bкусный коктейль"> </th>
+                  </tr>
+                </table>
+              <div>                    
+            </div>
+                  <button class='home' type="button"></button>
+          </form>
+        </section>
+
+
+
+
+
+    </main>
+  <script src="script.js"></script>
+</body>
+
+
+<footer></footer>
+</html>
